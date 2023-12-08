@@ -1,0 +1,17 @@
+{
+    "name": "aluno/bvirtual",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\Bvirtual\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mateusoliiveiira",
+            "email": "mateusoliiveira000@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

@@ -1,0 +1,457 @@
+body {
+    margin: 0; /* Remova as margens padrão do body */
+    padding: 0; /* Remova o preenchimento padrão do body */
+  
+}
+.link a {
+    position: relative;
+    left: 670px;
+    margin-right: 50px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #fffdfd;
+    top:-570px;
+    overflow: hidden;
+}
+
+.link a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.link a:hover:after,
+.link a:focus:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.rolt {
+    display: flex;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    transition: top 0.3s ease;
+    
+}
+
+.rolt a {
+    margin-right: 90px; /* Espaçamento entre os itens, ajuste conforme necessário */
+    text-decoration: none;
+    color: rgb(116, 116, 224);
+    position: relative;
+    left: 300px;
+}
+.logo{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.video-background {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: 110%;
+    overflow: hidden;
+}
+.menu a {
+    position: relative;
+    left: 670px;
+    margin-right: 50px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #000000;
+    top:10px;
+    overflow: hidden;
+}
+
+.menu a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: purple;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.menu a:hover:after,
+.menu a:focus:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+#banner-container {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    top: 0px;
+   
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    top: 660px;
+}
+
+.button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #3ce759; /* Cor do botão ativo */
+}
+@media (max-width: 768px) {
+    #banner-container {
+        height: auto;
+    }
+
+    .button-container {
+        top: auto;
+        bottom: 5%;
+    }
+}
+video {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* Adapte a cor do texto conforme necessário */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.rolt {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    transition: top 0.3s ease; /* Adicionando uma transição suave */
+}
+
+#fixed-rolt {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra sutil quando fixado */
+}
+.foto{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    left: 1230px;
+}
+.oi{
+    position: relative;
+    top: -75px;
+    left: 1px;
+    text-decoration: none;
+    color: black;
+
+
+}
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 59px;
+    
+    
+   
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #ffd700;
+}
+
+.footer-text p {
+    margin: 5px 0;
+}
+
+.footer-text a {
+    color: green; 
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .link a {
+        left: 0;
+        margin-right: 20px;
+        color: black;
+      
+   
+    }
+
+    .logo {
+        left: 20px;
+        top: -70px;
+    }
+
+    .foto {
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rolt {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .rolt a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}   
+@media screen and (max-width: 768px) {
+    .video-background {
+        top: 200px;
+    }
+
+    video {
+        height: 30%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .link a {
+        left: 30px;
+        margin-right: 10px;
+        top: 10px;
+        color: black;
+    }
+}
+@media screen and (max-width: 768px) {
+    .link a:hover:after,
+    .link a:focus:after {
+        transform: scaleX(0); /* Remover a animação de hover em telas menores */
+        color: black;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .video-background {
+        display: none; /* Esconder o vídeo em telas menores */
+    }
+
+    .imagem-responsiva {
+        background-image: url('caminho/para/sua/imagem-mobile.jpg');
+        height: 50vh; /* Ajuste a altura desejada para telas menores */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .background-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: block; 
+    }
+
+    .background-video video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .background-video {
+        display: none; 
+    }
+}
+.logout-link {
+    position: absolute;
+    top: 66px;
+   left: 1280px;
+   font-size: 20px;
+ 
+
+
+}
+
+.welcome-message {
+    position: absolute;
+    top: 107px;
+   left: 1030px;
+   color: white;
+   font-family: 'Inter';
+   font-style: italic;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 15px;
+   text-decoration: none;
+   color: #ffffff;
+   overflow: hidden;
+   
+}
+
+.welcome-message  a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.welcome-message a:hover:after,
+.welcome-message  a:focus:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+a.confirm-link {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+
+a.confirm-link:hover {
+    color: #0056b3;
+}
+
+
+a.confirm-link:focus {
+    outline: none; 
+    box-shadow: 0 0 2px 2px #007bff;
+}
+
+.image-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.image-slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.arrow {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+
+/* Estilos para dispositivos menores que 600 pixels de largura (móveis) */
+@media only screen and (max-width: 600px) {
+    #banner-container {
+        flex-direction: column;
+    }
+
+    .button-container {
+        margin-top: 5px;
+    }
+}

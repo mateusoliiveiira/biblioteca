@@ -1,0 +1,86 @@
+body {
+    font-family: 'Inter', sans-serif;
+  
+    text-align: center;
+    margin: 50px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 300px;
+    position: relative;
+    top: 120px;
+    height: 200px;
+ 
+}
+
+table, th, td {
+    border: 0px solid #ddd;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 13px;
+    
+
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+h2{
+    position: relative;
+    top: 140px;
+    color: white;
+}
+a{
+    position: relative;
+    top: 140px;
+    color: red;
+    text-decoration: none;
+    width: 10%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 13px;
+    background-color: white;
+}
+h1{
+    position: relative;
+    color: white;
+    top: 120px;
+}
+.logo{
+    position: relative;
+    top: 80px;
+}
+@media screen and (max-width: 600px) {
+    a {
+        width: 50%; /* Em telas menores, ocupar 100% da largura */
+        margin: 0.5rem 0; /* Reduzir a margem */
+        font-size: 0.9rem; /* Reduzir o tamanho da fonte */
+    }
+}

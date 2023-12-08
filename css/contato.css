@@ -1,0 +1,113 @@
+.rolt {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    transition: top 0.3s ease; /* Adicionando uma transição suave */
+}
+
+#fixed-rolt {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra sutil quando fixado */
+}
+.rolt {
+    display: flex;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    transition: top 0.3s ease;
+    
+}
+
+.rolt a {
+    margin-right: 90px; /* Espaçamento entre os itens, ajuste conforme necessário */
+    text-decoration: none;
+    color: rgb(116, 116, 224);
+    position: relative;
+    left: 300px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #343a40;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    top: 70px;
+    position: relative;
+    left: -50px;
+}
+
+h2 {
+    text-align: center;
+    color: #17a2b8;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #17a2b8;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #17a2b8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #343a40;
+    color: white;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #17a2b8;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #138496;
+}
+
+/* Adiciona algum espaçamento entre os elementos */
+.container {
+    margin-top: 50px;
+}
+
+
+
+/* Adicione mais estilos conforme necessário */
+h2{
+    position: absolute;
+    left: 540px;
+    color: white;
+    top: 80px
+}
+.logo{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}

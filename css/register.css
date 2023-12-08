@@ -1,0 +1,94 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('img/Tela-fundo-login.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+}
+
+h2 {
+color: #333;
+}
+
+table {
+margin: auto;
+border-collapse: collapse;
+width: 300px;
+position: relative;
+top: 140px;
+}
+
+table, th, td {
+border: 0px solid #ddd;
+border-radius: 15px;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+width: 100%;
+padding: 8px;
+margin: 5px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: white;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #45a049;
+}
+a{
+    text-decoration:none ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    position: relative;
+    top: 130px;
+    color: white;
+}
+    a{
+        position: relative;
+        top: 130px;
+        color: red;
+        text-decoration: none;
+        width: 10%;
+        padding: 8px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 13px;
+        background-color: white;
+    }
+h3{
+    position: relative;
+    color: white;
+    top: 130px;
+}
+.logo{
+    position: relative;
+    top: 80px;
+}
+@media screen and (max-width: 600px) {
+    a {
+        width: 50%; /* Em telas menores, ocupar 100% da largura */
+        margin: 0.5rem 0; /* Reduzir a margem */
+        font-size: 0.9rem; /* Reduzir o tamanho da fonte */
+    }
+}
